@@ -12,10 +12,10 @@ class Animal
   def age_is_odd
     if @age.odd?
       puts "#{@name}'s age is odd"
-   else
-    puts "#{@name}'s age is even"
+    else
+     puts "#{@name}'s age is even"
+    end
   end
-end
 end
 
 class Cat < Animal
